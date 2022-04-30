@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>VTSModelSwitcherExample</title>
+</head>
+<body>
+    <div class="panels" id="connectionPanel">
+        <h1>Connection</h1>
+        <div id="connectionState">Status: Not Connected</div>
+
+        <div id="connector">
+            <label for="inputPort">VTube Studio API Port: </label><input type="number" name="port" id="inputPort" value="8001" min="1024" max="65535" />
+            <input type="button" id="btnConnect" value="Connect" />
+        </div>
+    </div>
+
+    <div class="panels" id="modelPanel">
+        <h1>Models</h1>
+        <input type="button" id="btnGetModels" value="Refresh" />
+        <div id="modelList"></div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
