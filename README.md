@@ -1,5 +1,5 @@
 # VTube Studio Simple Model Switcher Example
-A simple VTube Studio example plugin that enables the switching of VTS model outside of VTS. This project is intended for new VTS developers to get started. It is designed to be very easy to understand and work without any external dependencies. 
+A simple VTube Studio example plugin that enables the switching of VTS models outside of VTS. This project is intended for new VTS developers to get started. It is designed to be very easy to understand and work without any external dependencies. 
 
 Uses HTML, CSS and JavaScript only.
 
