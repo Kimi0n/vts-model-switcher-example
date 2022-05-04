@@ -16,3 +16,4 @@ You need to refresh after every model switch to see which model is currently act
 If the plugin doesn't connect, try to connect manually with the "connect" button.
 
 VTS API Documentation: https://github.com/DenchiSoft/VTubeStudio
+Renpona's VTS Clock: https://github.com/Renpona/VTS-Clock-Standalone
